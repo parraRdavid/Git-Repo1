@@ -1,9 +1,50 @@
-*{
-    background-color: #1F2831;
-   /* background: linear-gradient(35deg, #002fff00, #00000000, rgb(212, 255, 204));*/
+
+* {
+  box-sizing: border-box;
 }
 
-h1{
-    color: white;
-    text-align: center;
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
 }
+
+.main_header{
+    background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+ 
+}
+
+.main_nav{
+    overflow: hidden;
+  background-color:black;
+  color: pink;
+}
+
+.main_nav a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.main_nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
